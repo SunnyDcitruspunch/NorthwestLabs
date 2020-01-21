@@ -13,10 +13,8 @@ export default function Center() {
       setIsSubmitting(!isSubmitting);
       setShowSpinner("none");
       setSubmitMessage("New form waiting to be submitted");
-      console.log(isSubmitting);
     }, 2000);
   };
-  console.log(isSubmitting);
 
   return (
     <Fragment>
