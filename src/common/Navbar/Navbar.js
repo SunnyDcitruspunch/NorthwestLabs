@@ -19,6 +19,8 @@ export default function Navbar() {
           {" "}
           <ul>
             <li>Right: unstyled ul with recent assays</li>
+            <li>Pending Assay</li>
+            <li>Another Pending Assay</li>
           </ul>
         </Col>
       </Row>
