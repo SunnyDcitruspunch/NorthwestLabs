@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 const sleep = require("sleepjs");
 
-export default function Center() {
+export default function Center(props) {
   const [showSpinner, setShowSpinner] = useState("none");
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitMessage, setSubmitMessage] = useState("Form waiting to be submitted");

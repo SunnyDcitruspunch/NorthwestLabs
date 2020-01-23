@@ -2,7 +2,7 @@ import React from "react";
 import { Route, Switch } from "react-router-dom";
 import { About, Help } from "./Components";
 import Welcome from "./Welcome";
-import "./App.css";
+import "./App.scss";
 
 function App() {
   return (
