@@ -1,7 +1,5 @@
 import React from "react";
-import Col from "react-bootstrap/Col";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
+import { Container, Col, Row } from "react-bootstrap";
 import AssayList from "../AssayList";
 import Center from "../Center";
 
@@ -16,7 +14,6 @@ export default function Navbar() {
           <Center />
         </Col>
         <Col md={{ span: 4 }}>
-          {" "}
           <ul>
             <li>Right: unstyled ul with recent assays</li>
             <li>Pending Assay</li>

@@ -1,8 +1,8 @@
-import { Container, Col, Row, NavDropdown } from "react-bootstrap";
 import React from "react";
+import { Container, Col, Row, NavDropdown } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./style.css";
+import "./style.scss";
 
 export default function Header() {
   return (

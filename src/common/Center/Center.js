@@ -1,5 +1,7 @@
 import React, { Fragment, useState } from "react";
 import { Button, Form, Spinner } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 const sleep = require("sleepjs");
 
 export default function Center() {
@@ -24,6 +26,7 @@ export default function Center() {
 
   return (
     <Fragment>
+      <FontAwesomeIcon icon={faCoffee} />
       <h2>Welcome!</h2>
       <p>{submitMessage}</p>
       <Form>

@@ -1,0 +1,15 @@
+@import "../../index.scss";
+
+header {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+header div {
+  background-color: #f2aee7;
+}
+
+.greetings {
+  color: $success;
+  font-size: 10rem;
+}
